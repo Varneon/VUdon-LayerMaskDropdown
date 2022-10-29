@@ -1,10 +1,10 @@
 <div>
 
-# [VUdon](https://github.com/Varneon/VUdon) - Repository Template [![GitHub Repo stars](https://img.shields.io/github/stars/Varneon/Repository-Template-VUdon?style=flat&label=Stars)](https://github.com/Varneon/Repository-Template-VUdon/stargazers) [![GitHub all releases](https://img.shields.io/github/downloads/Varneon/Repository-Template-VUdon/total?color=blue&label=Downloads&style=flat)](https://github.com/Varneon/Repository-Template-VUdon/releases) [![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Varneon/Repository-Template-VUdon?color=blue&label=Release&sort=semver&style=flat)](https://github.com/Varneon/Repository-Template-VUdon/releases/latest)
+# [VUdon](https://github.com/Varneon/VUdon) - LayerMask Dropdown [![GitHub Repo stars](https://img.shields.io/github/stars/Varneon/VUdon-LayerMaskDropdown?style=flat&label=Stars)](https://github.com/Varneon/VUdon-LayerMaskDropdown/stargazers) [![GitHub all releases](https://img.shields.io/github/downloads/Varneon/VUdon-LayerMaskDropdown/total?color=blue&label=Downloads&style=flat)](https://github.com/Varneon/VUdon-LayerMaskDropdown/releases) [![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Varneon/VUdon-LayerMaskDropdown?color=blue&label=Release&sort=semver&style=flat)](https://github.com/Varneon/VUdon-LayerMaskDropdown/releases/latest)
 
 </div>
 
-Template repository for VUdon packages
+UdonSharpBehaviour for modifying Unity UI Dropdown into a LayerMask dropdown from Unity Editor in VRChat
 
 # Installation
 
