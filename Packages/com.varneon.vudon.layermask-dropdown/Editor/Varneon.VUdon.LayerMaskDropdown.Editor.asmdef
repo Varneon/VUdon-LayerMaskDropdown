@@ -1,7 +1,10 @@
 {
     "name": "Varneon.VUdon.LayerMaskDropdown.Editor",
     "references": [
-        "Varneon.VUdon.LayerMaskDropdown.Runtime"
+        "Varneon.VUdon.LayerMaskDropdown.Runtime",
+        "UdonSharp.Runtime",
+        "UdonSharp.Editor",
+        "VRC.Udon"
     ],
     "includePlatforms": [
         "Editor"
