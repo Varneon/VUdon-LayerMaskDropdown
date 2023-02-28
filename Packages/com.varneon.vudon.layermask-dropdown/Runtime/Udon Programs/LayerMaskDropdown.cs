@@ -177,8 +177,6 @@ namespace Varneon.VUdon.LayerMaskDropdown
                 }
             }
 
-            Debug.Log($"{name}\n{layerCount}\n{optionIndex}");
-
             if (layerCount == projectLayerCount)
             {
                 maskInt = -1;
