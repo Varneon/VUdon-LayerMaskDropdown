@@ -32,6 +32,12 @@ namespace Varneon.VUdon.LayerMaskDropdown
         private string variable;
 
         /// <summary>
+        /// Name of the target UdonBehaviour's method
+        /// </summary>
+        [SerializeField]
+        private string method;
+
+        /// <summary>
         /// Number of layers defined in this project
         /// </summary>
         [SerializeField, HideInInspector]
@@ -70,9 +76,17 @@ namespace Varneon.VUdon.LayerMaskDropdown
 
         private void SetTargetVariable()
         {
-            if(target != null && !string.IsNullOrWhiteSpace(variable))
+            if(target != null)
             {
-                target.SetProgramVariable(variable, mask);
+                if (!string.IsNullOrWhiteSpace(variable))
+                {
+                    target.SetProgramVariable(variable, mask);
+                }
+
+                if (!string.IsNullOrWhiteSpace(method))
+                {
+                    target.SendCustomEvent(method);
+                }
             }
         }
 
