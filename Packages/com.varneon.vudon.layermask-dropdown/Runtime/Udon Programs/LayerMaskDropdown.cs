@@ -11,6 +11,8 @@ namespace Varneon.VUdon.LayerMaskDropdown
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public class LayerMaskDropdown : UdonSharpBehaviour
     {
+        public LayerMask Value => mask;
+
         /// <summary>
         /// Current LayerMask
         /// </summary>
