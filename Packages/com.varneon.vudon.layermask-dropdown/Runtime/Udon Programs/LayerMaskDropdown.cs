@@ -184,5 +184,18 @@ namespace Varneon.VUdon.LayerMaskDropdown
                 dropdown.SetValueWithoutNotify(0);
             }
         }
+
+        public void SetValueWithoutNotify(LayerMask value)
+        {
+            dropdown = GetComponent<Dropdown>();
+
+            dropdownValueLabel = dropdown.captionText;
+
+            mask = value;
+
+            maskInt = mask;
+
+            CheckMixedLayers();
+        }
     }
 }
