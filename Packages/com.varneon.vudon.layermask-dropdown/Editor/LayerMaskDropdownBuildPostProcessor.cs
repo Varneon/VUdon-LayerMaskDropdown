@@ -20,7 +20,7 @@ namespace Varneon.VUdon.LayerMaskDropdown.Editor
         private static void InitializeLayerMaskDropdowns()
         {
             // Find all LayerMaskDropdowns and setup all of them
-            foreach(LayerMaskDropdown dropdown in UnityEngine.Object.FindObjectsOfType<LayerMaskDropdown>())
+            foreach(LayerMaskDropdown dropdown in Resources.FindObjectsOfTypeAll<LayerMaskDropdown>().Where(d => d.gameObject.scene.IsValid()))
             {
                 SetupLayerMaskDropdown(dropdown);
             }
